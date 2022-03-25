@@ -53,6 +53,8 @@
       + 将远程主机的分支拉取过来，与本地分支合并，如果本地没有，则新建
     + 出现 rejected(non-fast-forward)
       + git pull --rebase origin master
+    + 出现 refusing to merge unrelated hsitories
+      + git pull --allow-unrelated-histories
   
 + 克隆某一个分支
   
